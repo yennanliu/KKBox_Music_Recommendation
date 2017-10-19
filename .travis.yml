@@ -3,4 +3,4 @@
     - 3.4
     - nightly
   script:
-    - pytest
+    - py.test
