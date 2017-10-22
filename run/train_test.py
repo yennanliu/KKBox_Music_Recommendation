@@ -107,6 +107,7 @@ subm = pd.DataFrame()
 subm['id'] = ids
 subm['target'] = p_test
 print (subm)
+subm.to_csv('../output/submit_benchmark.csv', index=False, float_format = '%.5f')
 #subm.to_csv('submission.csv.gz', compression = 'gzip', index=False, float_format = '%.5f')
 print('Done!')
 
