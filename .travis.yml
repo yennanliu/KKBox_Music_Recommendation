@@ -6,6 +6,7 @@
     - 3.4
     - nightly
   before_script: 
-    - sh ./init.sh
+    #- sh ./init.sh
+    - source init.sh
   script:
     - python run/train_1022.py
