@@ -1,6 +1,11 @@
   language: python
+  install:
+     - pip install --upgrade pip
+     - pip install pandas numpy 
   python:
     - 3.4
     - nightly
+  before_script: 
+    - sh ./init.sh
   script:
-    - py.test
+    - python run/train_1022.py
