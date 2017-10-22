@@ -6,12 +6,12 @@ import numpy as np
 import pandas as pd
 
 
-def load_data_test():
-	#data_path = '/Users/yennanliu/KKBox_Music_Recommendation/data/'
-	data_path = '/data/'
-	song_extra_info =  pd.read_csv(data_path + 'song_extra_info.csv',nrows=10)
-	print (song_extra_info.head(10))
-	return  song_extra_info
+#def load_data_test():
+#	#data_path = '/Users/yennanliu/KKBox_Music_Recommendation/data/'
+#	data_path = '/data/'
+#	song_extra_info =  pd.read_csv(data_path + 'song_extra_info.csv',nrows=10)
+#	print (song_extra_info.head(10))
+#	return  song_extra_info
 
 
 def load_data():
