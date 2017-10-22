@@ -14,9 +14,9 @@ def prepare():
 
 def test():
 	data_path = '~/KKBox_Music_Recommendation/data/'
-	song_extra_info =  pd.read_csv(data_path + 'song_extra_info.csv',nrows=10)
-	print (song_extra_info.head(10))
-	return  song_extra_info
+	sample_submission =  pd.read_csv(data_path + 'sample_submission.csv',nrows=10)
+	print (sample_submission.head(10))
+	return  sample_submission
 
 if __name__ == '__main__':
 	#train, test, songs, members, song_extra_info = load_data()
