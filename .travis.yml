@@ -9,4 +9,4 @@
     #- sh ./init.sh
     - source init.sh
   script:
-    - python run/train_1022.py
+    - source test.sh
