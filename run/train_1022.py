@@ -18,8 +18,11 @@ def test():
 	print (sample_submission.head(10))
 	return  sample_submission
 
+def test_():
+	print ('this is build test')
+
 if __name__ == '__main__':
 	#train, test, songs, members, song_extra_info = load_data()
 	#load_data_test()
-	test()
+	test_()
 
